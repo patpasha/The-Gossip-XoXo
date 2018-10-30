@@ -12,6 +12,9 @@ class StaticController < ApplicationController
   puts "C'est fini"
   end
 
+  def welcome
+  end
+  
   def team
   end
 
