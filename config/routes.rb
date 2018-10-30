@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get '/', to: 'static#home'
   get 'static/home', to: 'static#home'
   get 'static/welcome', to: 'static#welcome'
   post 'static/welcome', to: 'static#welcome'
